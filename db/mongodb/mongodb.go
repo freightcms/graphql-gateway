@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"slices"
 
+	"github.com/freightcms/graphql-gateway/db"
 	"github.com/freightcms/graphql-gateway/models"
-	"github.com/freigthcms/graphql-gateway/db"
 	"go.mongodb.org/mongo-driver/bson"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
