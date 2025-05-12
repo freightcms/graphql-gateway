@@ -21,7 +21,8 @@ use (
 ### .env file
 
 ```dotenv
-MONGO_SERVER=mongodb://root:example@0.0.0.0:27017/
+CARRIERS_GRAPH_ENDPOINT="http://carriers-graph.local"
+ORGANIZATIONS_GRAPH_ENDPOINT="http://organizations-graph.local"
 ```
 
 ## Running
