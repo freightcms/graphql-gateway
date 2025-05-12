@@ -10,7 +10,10 @@ var (
 		Name: "GatewayQueries",
 		Fields: graphql.Fields{
 			"carriers": &graphql.Field{
-				Type: graphql.NewInputObject(web.CarrierQuery.Fields()["carriers"]),
+				Type: web.CarrierObject,
+				Resolve: func(p graphql.ResolveParams) (interface{}, error) {
+					return nil, nil
+				},
 			},
 		},
 	})
