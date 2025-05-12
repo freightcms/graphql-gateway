@@ -10,7 +10,7 @@ import (
 
 	dotenv "github.com/dotenv-org/godotenvvault"
 	"github.com/freightcms/graphql-gateway/db/mongodb"
-	"github.com/freightcms/graphql-gateway/web"
+	orgWeb "github.com/freightcms/organizations/web"
 	"github.com/graphql-go/handler"
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
@@ -49,7 +49,7 @@ func main() {
 	fmt.Println("Done")
 	fmt.Println("Setting up handlers and routes")
 
-	rootSchema, err := web.NewSchema()
+	rootSchema, err := orgWeb.NewSchema()
 	if err != nil {
 		log.Fatal(err)
 		return
