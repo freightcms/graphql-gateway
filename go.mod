@@ -10,17 +10,13 @@ require (
 
 require (
 	github.com/freightcms/carriers/db v1.1.0 // indirect
-	github.com/freightcms/carriers/db/mongodb v0.0.0-20240716003255-564878297511 // indirect
-	github.com/freightcms/carriers/models v0.0.0-20240716003255-564878297511 // indirect
-	github.com/freightcms/carriers/web v0.0.0-20250515180102-5815ebe8752f // indirect
+	github.com/freightcms/carriers/models v0.0.0-20250515201019-999a2e521f36 // indirect
 	github.com/freightcms/common/models v1.1.0 // indirect
+	github.com/freightcms/graphql-gateway/db v0.0.0-20250511131742-ba17d76f4524 // indirect
+	github.com/freightcms/graphql-gateway/db/mongodb v0.0.0-20250511131742-ba17d76f4524 // indirect
+	github.com/freightcms/graphql-gateway/models v0.0.0-20250511131742-ba17d76f4524 // indirect
 	github.com/freightcms/locations/models v1.1.0 // indirect
-	github.com/freightcms/locations/web v1.0.1 // indirect
-	github.com/freightcms/organizations/db v0.0.0-20250319134210-79a6e808531e // indirect
-	github.com/freightcms/organizations/db/mongodb v0.0.0-20250319134210-79a6e808531e // indirect
 	github.com/freightcms/organizations/models v0.0.0-20250319134210-79a6e808531e // indirect
-	github.com/freightcms/organizations/web v0.0.0-20250319134210-79a6e808531e // indirect
-	github.com/freightcms/parties/models v1.0.1 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/graphql-go/graphql v0.8.1 // indirect
 	github.com/joho/godotenv v1.5.1 // indirect
@@ -35,5 +31,3 @@ require (
 	golang.org/x/sync v0.8.0 // indirect
 	golang.org/x/text v0.17.0 // indirect
 )
-
-replace github.com/freightcms/graphql-gateway/web => ./web

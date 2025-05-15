@@ -10,7 +10,7 @@ require (
 require (
 	github.com/freightcms/carriers/db v1.1.0 // indirect
 	github.com/freightcms/carriers/db/mongodb v0.0.0-20240716003255-564878297511 // indirect
-	github.com/freightcms/carriers/models v0.0.0-20240716003255-564878297511 // indirect
+	github.com/freightcms/carriers/models v0.0.0-20250515201019-999a2e521f36 // indirect
 	github.com/freightcms/common/models v1.1.0 // indirect
 	github.com/freightcms/locations/models v1.1.0 // indirect
 	github.com/freightcms/locations/web v1.0.1 // indirect
