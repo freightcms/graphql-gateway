@@ -9,6 +9,7 @@ import (
 	"strconv"
 
 	dotenv "github.com/dotenv-org/godotenvvault"
+	"github.com/freightcms/graphql-gateway/web"
 	"github.com/graphql-go/handler"
 )
 
@@ -44,7 +45,7 @@ func main() {
 	fmt.Println("Starting application...")
 
 	fmt.Println("Setting up handlers and routes")
-	schema, err := NewSchema()
+	schema, err := web.NewSchema()
 	if err != nil {
 		log.Fatal(err)
 	}
