@@ -6,7 +6,7 @@ import (
 )
 
 var (
-	RootQuery = graphql.NewObject(q.ObjectConfig{
+	RootQuery = graphql.NewObject(qraphql.ObjectConfig{
 		Name: "GatewayQueries",
 		Fields: q.Fields{
 			"carriers": &qraphql.Field{
