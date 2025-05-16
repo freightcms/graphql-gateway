@@ -18,7 +18,6 @@ require (
 	github.com/freightcms/organizations/db/mongodb v0.0.0-20250319134210-79a6e808531e // indirect
 	github.com/freightcms/organizations/models v0.0.0-20250319134210-79a6e808531e // indirect
 	github.com/freightcms/organizations/web v0.0.0-20250319134210-79a6e808531e // indirect
-	github.com/freightcms/parties/models v1.0.1 // indirect
 	github.com/golang/snappy v0.0.4 // indirect
 	github.com/klauspost/compress v1.13.6 // indirect
 	github.com/montanaflynn/stats v0.7.1 // indirect

@@ -1,9 +1,21 @@
 package web
 
-// NewSchema generates the required Query and Mutation objects
-func NewSchema() (qraphql.Schema, error) {
-	return q.NewSchema(qraphql.SchemaConfig{
-		Query:    RootQuery,
-		Mutation: nil,
+import "github.com/graphql-go/graphql"
+
+var (
+	rootQuery = graphql.NewObject(graphql.ObjectConfig{
+		Name: "RootQuery",
+		Fields: graphql.Fields{
+			"carriers": &graphql.Field{
+				Name: "names",
+				Type: graphql.NewList(graphql.String),
+			},
+		},
+	})
+)
+
+func NewSchema() (graphql.Schema, error) {
+	return graphql.NewSchema(graphql.SchemaConfig{
+		Query: rootQuery,
 	})
 }
